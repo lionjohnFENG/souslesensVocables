@@ -1,3 +1,5 @@
+import {Admin} from "../js/tools/admin.js";
+//export default  () => {
 self.tools = {};
 
 self.tools["lineage"] = { label: "Lineage", noSource: 0, controller: Lineage_classes, toolDescriptionImg: null }; //"images/taxonomy.png"}
@@ -80,12 +82,6 @@ self.tools["ConfigEditor"] = {
     controller: ConfigEditor,
     toolDescriptionImg: null,
 };
-/*
-self.tools["Standardizer2"] = {
-    label: "Standardizer2",
-    noSource: 1,
-    controller: StandardizerCTL,
-    toolDescriptionImg: null,
-};
-*/
 Config.tools = self.tools;
+
+//}

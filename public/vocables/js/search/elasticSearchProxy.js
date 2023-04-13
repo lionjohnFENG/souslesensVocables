@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-var ElasticSearchProxy = (function () {
+export var ElasticSearchProxy = (function () {
     var self = {};
 
     /**

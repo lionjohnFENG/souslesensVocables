@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-var Admin = (function () {
+export var Admin = (function () {
     var self = {};
 
     self.onLoaded = function () {
